@@ -4,7 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body,html{
+    overflow: hidden;
+}
 /* navigation bar start */
 
 header{
@@ -61,3 +63,101 @@ nav .btn{
 
    }
 /* navigation bar end */
+
+/* hero Part Start  */
+
+.hero-container{
+     background-image:url(./B13-A01-Knowledge-Vault/assets/hero-bg.png);
+     background-size: cover;
+     background-position:center;
+     height:674px;
+     width:1600px;
+}
+
+.circle{
+    height:16px;
+    width:16px;
+}
+p{
+ text-align: center;
+ padding-top: 115px;
+ color: #469165;
+}
+
+p span {
+    padding:8px 12px 8px 34px; 
+    border-radius: 1000px; 
+}
+.hero-content h1{
+    text-align: center;
+    margin:16px;
+    color: #FFFFFF;
+    font-size:65px;
+}
+
+.hero-content h1 span{
+    color: #30B868;
+}
+.description{
+    color: #FFFFFF;
+    font-size:16px;
+    font-weight:400;
+   padding:16px;
+}
+
+.new-btn{
+    height:52px;
+    width:370px;
+     font-size:16px;
+     display: flex;
+     margin: 0 auto;
+    font-weight: 600;
+    border: none;
+    gap: 10px;
+    
+    
+} 
+
+.play{
+    height:15px;
+    width: 15px;
+}
+.arrow{
+    height:15px;
+    width:15px;
+}
+.body, .btn-outline{
+    background-color: #30B868;
+    height:100%;
+    width:100%;
+    display: flex;
+}
+.body{
+    color:#FFFFFF;
+    align-items: center;
+    padding:5px;
+    border-radius:4px;
+    border: none;
+    font-weight:400;
+}
+.btn-outline{
+    color:#FFFFFF;
+    background: transparent;
+    align-items: center;
+    border-radius:4px;
+    padding-left:15px;
+    border: solid white;
+    font-weight: 500;
+    
+}
+
+.btn-outline:hover{
+     cursor: pointer;
+     background-color: aqua;
+}
+.body:hover{
+       cursor: pointer; 
+       background-color: aqua;
+}
+
+/* hero Part End */
