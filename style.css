@@ -231,3 +231,54 @@ p span {
   height: 15px;
   width: 15px;
 }
+
+.two-container{
+  display: flex;
+  /* margin-top:222px; */
+}
+#two-column .two-container{
+  margin-top:120px;
+  gap:60px;
+}
+
+.two-container .two-card{
+  margin-top:222px;
+}
+
+#two-column .two-container .two-card h6{
+  color:#469165;
+  font-size:12px;
+  font-weight: 400;
+}
+#two-column .two-container .two-card h3{
+  margin:16px;
+  font-size:36px;
+  font-weight:bold;
+}
+#two-column .two-container .two-card .para{
+  font-size:16px;
+  color:#627382;
+  margin:16px;
+}
+#two-column .two-container .two-card-ln {
+  font-size:16px;
+  font-weight:500;
+  color:#001931;
+  margin-top:40px;
+  /* I don't understand this part well */
+  display:flex;
+  flex-direction: column;
+  /* I don't understand this part well */
+  gap:16px;
+
+}
+#two-column .two-container .two-card-ln .line{
+  /* I don't understand this part well */
+   display: flex;
+   align-items: center;
+   gap:5px;
+   margin:0;
+}
+
+/* Two-Column Layout End  */
+
