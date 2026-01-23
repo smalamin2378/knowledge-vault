@@ -1,163 +1,233 @@
-*{ font-family: "Inter", sans-serif;}
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  font-family: "Inter", sans-serif;
 }
-body,html{
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* body,html{
     overflow: hidden;
-}
+} */
 /* navigation bar start */
 
-header{
-    background-color:#FFFFFF;
-
+header {
+  background-color: #ffffff;
 }
 
-nav{
-     width:80%; 
-     max-width: 1320px; 
-    margin: 0px auto;
-    display: flex;
-    justify-content: space-between;
+nav {
+  width: 80%;
+  max-width: 1320px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
 }
 
-
-.img{
-    height:60px; 
-     width:139px;
-     margin:16px;
-     /* margin-left:120px; */
+.img {
+  height: 60px;
+  width: 139px;
+  margin: 16px;
+  /* margin-left:120px; */
 }
 
- nav .menu{
-    list-style:none;
-    display: flex;
-    font-weight: 500; 
-    gap:30px; 
-    margin:30px; 
-   
+nav .menu {
+  list-style: none;
+  display: flex;
+  font-weight: 500;
+  gap: 30px;
+  margin: 30px;
 }
 
-nav .menu a{
-    font-size:16px;
-    text-decoration: none;
-    color: #000000; 
+nav .menu a {
+  font-size: 16px;
+  text-decoration: none;
+  color: #000000;
 }
 
-nav .btn{
-    height: 40px;
-    width:164px; 
-    font-size:16px;
-    color:#FFFFFF;
-    background-color:#469165;
-    margin:24px;
-    text-align: center;
-    font-weight: 600;
-    border-radius:4px;
-   border: none;
-  }
-   nav .btn:hover{
-     cursor: pointer;
-     background-color: aqua;
-
-   }
+nav .btn {
+  height: 40px;
+  width: 164px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #469165;
+  margin: 24px;
+  text-align: center;
+  font-weight: 600;
+  border-radius: 4px;
+  border: none;
+}
+nav .btn:hover {
+  cursor: pointer;
+  background-color: aqua;
+}
 /* navigation bar end */
 
 /* hero Part Start  */
 
-.hero-container{
-     background-image:url(./B13-A01-Knowledge-Vault/assets/hero-bg.png);
-     background-size: cover;
-     background-position:center;
-     height:674px;
-     width:1600px;
+.hero-container {
+  background-image: url(./B13-A01-Knowledge-Vault/assets/hero-bg.png);
+  background-size: cover;
+  background-position: center;
+  height: 674px;
+  max-width: 1600px;
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.circle{
-    height:16px;
-    width:16px;
+.circle {
+  height: 16px;
+  width: 16px;
 }
-p{
- text-align: center;
- padding-top: 115px;
- color: #469165;
-}
+
 
 p span {
-    padding:8px 12px 8px 34px; 
-    border-radius: 1000px; 
+  padding: 8px 12px 8px 34px;
+  border-radius: 1000px;
 }
-.hero-content h1{
-    text-align: center;
-    margin:16px;
-    color: #FFFFFF;
-    font-size:65px;
-}
-
-.hero-content h1 span{
-    color: #30B868;
-}
-.description{
-    color: #FFFFFF;
-    font-size:16px;
-    font-weight:400;
-   padding:16px;
+.hero-content h1 {
+  text-align: center;
+  margin: 16px;
+  color: #ffffff;
+  font-size: 65px;
 }
 
-.new-btn{
-    height:52px;
-    width:370px;
-     font-size:16px;
-     display: flex;
-     margin: 0 auto;
-    font-weight: 600;
-    border: none;
-    gap: 10px;
-    
-    
-} 
-
-.play{
-    height:15px;
-    width: 15px;
+.hero-content h1 span {
+  color: #30b868;
 }
-.arrow{
-    height:15px;
-    width:15px;
+.center{
+  height:29px;
+  width:229px;
+  text-align: center;
+  margin:0 auto;
+  padding:8px 12px 8px 0px;
+  color:#469165;
+  border-radius:1000px;
+  background-color:#ffffff;
 }
-.body, .btn-outline{
-    background-color: #30B868;
-    height:100%;
-    width:100%;
-    display: flex;
-}
-.body{
-    color:#FFFFFF;
-    align-items: center;
-    padding:5px;
-    border-radius:4px;
-    border: none;
-    font-weight:400;
-}
-.btn-outline{
-    color:#FFFFFF;
-    background: transparent;
-    align-items: center;
-    border-radius:4px;
-    padding-left:15px;
-    border: solid white;
-    font-weight: 500;
-    
+.description {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 16px;
+  text-align: center;
 }
 
-.btn-outline:hover{
-     cursor: pointer;
-     background-color: aqua;
+.new-btn {
+  height: 52px;
+  width: 370px;
+  font-size: 16px;
+  display: flex;
+  margin: 0 auto;
+  font-weight: 600;
+  border: none;
+  gap: 10px;
 }
-.body:hover{
-       cursor: pointer; 
-       background-color: aqua;
+
+.play {
+  height: 15px;
+  width: 15px;
+}
+.arrow {
+  height: 15px;
+  width: 15px;
+}
+.body,
+.btn-outline {
+  background-color: #30b868;
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+.body {
+  color: #ffffff;
+  align-items: center;
+  padding: 5px;
+  border-radius: 4px;
+  border: none;
+  font-weight: 400;
+}
+.btn-outline {
+  color: #ffffff;
+  background: transparent;
+  align-items: center;
+  border-radius: 4px;
+  padding-left: 15px;
+  border: solid white;
+  font-weight: 500;
+}
+
+.btn-outline:hover {
+  cursor: pointer;
+  background-color: aqua;
+}
+.body:hover {
+  cursor: pointer;
+  background-color: aqua;
 }
 
 /* hero Part End */
+
+/* Features Section Srart  */
+
+.section-heading h2 {
+  text-align: center;
+  padding: 16px 0px 13px;
+  font-size: 45px;
+  font-weight: bold;
+}
+.section-heading p {
+  text-align: center;
+  font-size: 12px;
+  color: #627382;
+  padding: 8px 0px 10px;
+}
+
+#skills .skills-container {
+  width: 80%;
+  max-width: 1360px;
+  margin: 0 auto;
+}
+
+#skills .skills-container .skill-box {
+  display: flex;
+  margin-top: 35px;
+  gap: 24px;
+}
+
+#skills .skills-container .skill-box .skill-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 5px;
+  background-color: lab(99.11% 0.67 0.22);
+  box-shadow: 5px;
+  padding: 16px;
+}
+
+#skills .skills-container .skill-box .skill-card img {
+  background-color: #f95555;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  padding: 15px;
+}
+#skills .skills-container .skill-box .skill-card p {
+  color: #627382;
+  margin: 0px;
+  font-size: 16px;
+}
+#skills .skills-container .skill-box .skill-card h3 {
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+/* Features Section End */
+
+/* Two-Column Layout Start  */
+.check {
+  height: 15px;
+  width: 15px;
+}
